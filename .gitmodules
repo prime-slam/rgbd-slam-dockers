@@ -1,0 +1,18 @@
+[submodule "orb-slam3/ORB_SLAM3"]
+	path = orb-slam3/ORB_SLAM3
+	url = https://github.com/vnmsklnk/ORB_SLAM3
+	branch = TwoVIew
+[submodule "bundle-fusion/BundleFusionUbuntu"]
+	path = bundle-fusion/BundleFusionUbuntu
+	url = https://github.com/MobileRoboticsSkoltech/BundleFusionUbuntu.git
+[submodule "planar-slam/PlanarSLAM"]
+	path = planar-slam/PlanarSLAM
+	url = https://github.com/vnmsklnk/PlanarSLAM.git
+	branch = shape&DMF_from_config
+[submodule "dvo-slam/DVO-SLAM"]
+	path = dvo-slam/DVO-SLAM
+	url = https://github.com/vnmsklnk/docker_dvo_slam.git
+	branch = fixes
+[submodule "droid-slam/DROID_SLAM"]
+	path = droid-slam/DROID_SLAM
+	url = https://github.com/KonstantinPakulev/DROID-SLAM.git
