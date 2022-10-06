@@ -8,7 +8,7 @@ At first you need to build Docker image.
 cd PATH_TO_REPOSITORY/orb-slam3
 docker build -t orb3:latest .
 ```
-
+Please, run `xhost +` before Docker startup to access X11.
 Then you can run Docker image with this command:
 ```
 docker run -it --rm --net=host -e DISPLAY=$DISPLAY \
