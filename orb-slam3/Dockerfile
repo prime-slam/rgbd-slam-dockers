@@ -24,6 +24,7 @@ RUN apt-get update \
 # Build Pangolin for visualization
 RUN git clone https://github.com/stevenlovegrove/Pangolin.git \
 	&& cd Pangolin \
+	&& git checkout 9d8fef7 \
 	&& mkdir build \
 	&& cd build \
 	&& cmake .. -D CMAKE_BUILD_TYPE=Release \
